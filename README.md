@@ -119,7 +119,12 @@ First, [install Flask](http://flask.pocoo.org/docs/1.0/installation/#install-fla
   $ sudo pip3 install Flask
   ```
   
-Do not forget to install (flask SQLAlchemy) and (Flask Migrate)
+Do not forget to install flask SQLAlchemy and Flask Migrate:
+
+  ```
+$ pip install SQLAlchemy
+$ pip install Flask-Migrate
+  ```
 
 To start and run the local development server,
 
